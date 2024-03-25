@@ -215,6 +215,10 @@
     .header-area .header-top-action .top-action-content .info-box-2 {
         padding-top: 0;
     }
+
+    
+
+    
     .slider-area .single-slide-item:after {
         width: 408px;
     }
@@ -351,11 +355,16 @@
     /*== about-area ==*/
     .about-area .about-heading {
         padding-left: 0;
-        padding-top: 60px;
+        padding-top: 0px;
+        padding-bottom:0;
     }
     .faq-area .faq-img-box {
         margin-right: 0;
         margin-bottom: 50px;
+    }
+    .about-heading-text{
+        font-size:1rem;
+        text-align: justify !important; 
     }
     /*== sponsor-area ==*/
     .sponsor-area .sponsor-wrap .logo-item {
@@ -490,6 +499,9 @@
     .news-detail-area .blog-content-wrap .blog-content .blog-item .blog-inner-content-2 .news-tag-item-right .news-share li {
         display: inline-block;
     }
+    .register-button{
+        top:80%;
+    }
 }
 /*-----------------------------
     576px
@@ -591,6 +603,9 @@
     .give-area .give-title-box .section__title {
         font-size: 40px;
     }
+    .banner-text, .banner-number{
+        font-size: 0.8rem; 
+    }
 }
 /*-----------------------------
     425px
@@ -635,7 +650,7 @@
         line-height: 42px;
     }
     .mixer-area .mixer-heading .section__title {
-        font-size: 50px;
+        font-size: 30px;
         line-height: 60px;
         margin-bottom: 44px;
     }

@@ -122,6 +122,12 @@ a:hover {
     general-style
  =============================*/
 /*=== ostion-btn ===*/
+
+
+.about-heading-text{
+    font-size: 1.5rem;
+}
+
 .theme-btn {
     font-size: 12px;
     text-transform: uppercase;
@@ -1714,9 +1720,7 @@ a:hover {
     z-index: -1;
 }
 .mixer-area .mixer-heading .section__title {
-    font-size: 70px;
     line-height: 84px;
-    margin-bottom: 48px;
     font-weight: 800;
 }
 /*===================================
@@ -1951,23 +1955,47 @@ a:hover {
     ABOUT AREA
 =====================================*/
 .about-area {
-    padding-top: 120px;
     padding-bottom: 120px;
+    padding-top: 120px;
 }
+
 .about-area .about-large-img {
     margin-bottom: 60px;
 }
-.about-area .about-large-img img,
-.about-area .about-semi-img img {
+.about-area .about-large-img img{
     width: 100%;
+}
+
+.about-semi-img{
+    margin-top: 1rem;
+    margin-bottom:4rem;
+}
+
+.about-semi-img img{
+    width:100%;
 }
 .about-area .about-heading {
     padding-left: 30px;
 }
 .about-area .about-heading .section-heading .section__desc {
+    font-size:1.1rem;
     line-height: 30px;
     margin-top: 45px;
 }
+
+.about-no-margin{
+    padding-bottom:0;
+}
+
+.img-slogan{
+    width:100%;
+}
+
+.about-img-logo{
+    width:250px;
+    margin-bottom:0;
+}
+
 /*===================================
     FAQ AREA
 =====================================*/
@@ -4640,17 +4668,29 @@ a:hover {
     transform: skew(-12deg,0deg);
 }
 
-.footer-area .footer-widget-wrap .footer-item .footer__social ul li:nth-child(2) a,
-.footer-area .footer-widget-wrap .footer-item .footer__social ul li:nth-child(2) a:after {
+.footer-area .footer-widget-wrap .footer-item .footer__social ul{
+    margin-bottom:1.5rem;
+}
+
+.footer-area .footer-widget-wrap .footer-item .footer__social ul:nth-child(1) li:nth-child(2) a,
+.footer-area .footer-widget-wrap .footer-item .footer__social ul:nth-child(1) li:nth-child(2) a:after {
     background-color: #003874;
 }
-.footer-area .footer-widget-wrap .footer-item .footer__social ul li:nth-child(3) a,
-.footer-area .footer-widget-wrap .footer-item .footer__social ul li:nth-child(3) a:after {
+.footer-area .footer-widget-wrap .footer-item .footer__social ul:nth-child(1) li:nth-child(3) a,
+.footer-area .footer-widget-wrap .footer-item .footer__social ul:nth-child(1) li:nth-child(3) a:after {
     background-color: #ED1C24;
 }
-.footer-area .footer-widget-wrap .footer-item .footer__social ul li:nth-child(4) a,
-.footer-area .footer-widget-wrap .footer-item .footer__social ul li:nth-child(4) a:after {
+.footer-area .footer-widget-wrap .footer-item .footer__social ul:nth-child(2) li:nth-child(1) a,
+.footer-area .footer-widget-wrap .footer-item .footer__social ul:nth-child(2) li:nth-child(1) a:after {
     background-color: #863bae;
+}
+.footer-area .footer-widget-wrap .footer-item .footer__social ul:nth-child(2) li:nth-child(2) a,
+.footer-area .footer-widget-wrap .footer-item .footer__social ul:nth-child(2) li:nth-child(2) a:after {
+    background-color: #0077B5;
+}
+.footer-area .footer-widget-wrap .footer-item .footer__social ul:nth-child(2) li:nth-child(3) a,
+.footer-area .footer-widget-wrap .footer-item .footer__social ul:nth-child(2) li:nth-child(3) a:after {
+    background-color: #128c7e;
 }
 /*=== footer-copyright===*/
 .footer-area .footer-copyright {
@@ -4732,3 +4772,32 @@ a:hover {
 .main-donate .card .card-header{padding: 0}
 .main-donate .card .card-header h2{font-size: 16px;font-weight: 600;cursor: pointer;background: #ffffff}
 .main-donate .card .card-header h2 span{display: block;padding:20px 20px}
+
+
+/*Changes*/
+.register-button{
+    position:fixed;
+    z-index:99;
+    top:20%;
+    right:0;
+}
+
+
+.banner-number, .banner-text{
+    position:fixed;
+    z-index:99;
+    top:20%;
+}
+
+.banner-number{
+    font-size: 1.2rem;
+}
+
+.banner-text{
+    top:25%;
+    background-color: #1762f0;
+}
+
+.banner-text:after{
+    background: #1762f0;
+}
