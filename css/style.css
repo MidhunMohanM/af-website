@@ -259,7 +259,7 @@ a:hover {
     container
 =====================================*/
 .container {
-    max-width: 1200px;
+    max-width:1200px;
 }
 
 /*===================================
@@ -368,6 +368,7 @@ a:hover {
     display: table-cell;
     vertical-align: middle;
 }
+
 .header-area .header-top .ostion-top-wrap .header-btn .theme-btn,
 .header-area .header-top .ostion-top-wrap .header-btn .theme-btn:after {
     background-color: #003874;
@@ -817,6 +818,14 @@ a:hover {
 .header-area .side-nav-container .side-menu-wrap .side-social li:nth-child(4) a:after {
     background-color: #863bae;
 }
+.header-area .side-nav-container .side-menu-wrap .side-social li:nth-child(5) a,
+.header-area .side-nav-container .side-menu-wrap .side-social li:nth-child(5) a:after {
+    background-color: #0077B5;
+}
+.header-area .side-nav-container .side-menu-wrap .side-social li:nth-child(6) a,
+.header-area .side-nav-container .side-menu-wrap .side-social li:nth-child(6) a:after {
+    background-color: #128c7e;
+}
 .header-area .side-nav-container .side-menu-wrap .side-btn {
     text-align: center;
     margin-top: 40px;
@@ -938,7 +947,7 @@ a:hover {
     background-image: url("../images/slider3.jpg");
 }
 .slider-area .slide-bg4 {
-    background-image: url("../images/slider4.jpg");
+    background-image: url("../images/slider4.jpeg");
 }
 .slider-area .slide-bg5 {
     background-image: url("../images/slider5.jpg");
@@ -963,11 +972,12 @@ a:hover {
     margin-bottom: 12px;
 }
 .slider-area .slider-heading .slider__title {
-    font-size: 100px;
+    font-size: 4rem;
     line-height: 107px;
     color: #fff;
     font-weight: 900;
     margin-bottom: 47px;
+    max-width:17ch;
 }
 /*=== owl-nav ===*/
 .slider-area .homepage-slide1 .owl-dots {
@@ -1980,7 +1990,7 @@ a:hover {
 .about-area .about-heading .section-heading .section__desc {
     font-size:1.1rem;
     line-height: 30px;
-    margin-top: 45px;
+    margin-top: 10px;
 }
 
 .about-no-margin{
@@ -3113,8 +3123,8 @@ a:hover {
     CLIENTLOGO AREA
 =====================================*/
 .clientlogo-area {
-    padding-top: 118px;
-    padding-bottom: 110px;
+    padding-top: 0px;
+    padding-bottom: 50px;
     text-align: center;
 }
 .clientlogo-area .client-logo .owl-item .client-logo-item {
@@ -4780,6 +4790,7 @@ a:hover {
     z-index:99;
     top:20%;
     right:0;
+    clip-path: polygon(6% 0%, 100% 0%, 100% 100%, 0% 100%);
 }
 
 
@@ -4795,6 +4806,7 @@ a:hover {
 
 .banner-text{
     top:25%;
+    left:-1%;
     background-color: #1762f0;
 }
 

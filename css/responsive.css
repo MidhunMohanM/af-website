@@ -60,8 +60,10 @@
 }
 
 
-@media (min-width:768px) and (max-width:1366px) {
-
+@media (min-width:900px)  {
+    .img-slogan{
+        width:50%;
+    }
 }
 /*=== 1199px ===*/
 @media (max-width:1199px) {
@@ -143,8 +145,8 @@
 /*=== 1024px ===*/
 @media (max-width:1024px) {
     .slider-area .slider-heading .slider__title {
-        font-size: 86px;
-        line-height: 94px;
+        font-size: 70px;
+        line-height: 80px;
     }
     .slider-area .single-slide-item:after {
         width: 423px;
@@ -440,8 +442,8 @@
         max-width: 100%;
     }
     .slider-area .slider-heading .slider__title {
-        font-size: 76px;
-        line-height: 90px;
+        font-size: 60px;
+        line-height: 70px;
     }
     .hiw-area .col,
     .service-area .col {
@@ -585,6 +587,9 @@
     .cat-area .helping-item .helping-box {
         width: 75%;
     }
+    .header-area .header-top .ostion-top-wrap .ostion-logo a img{
+        width:80%;
+    }
 }
 /*-----------------------------
     480px
@@ -594,8 +599,8 @@
         height: 750px;
     }
     .slider-area .slider-heading .slider__title {
-        font-size: 65px;
-        line-height: 80px;
+        font-size: 40px;
+        line-height: 50px;
     }
     .slider-area2 .single-slide-item {
         height: 1024px;
@@ -603,8 +608,15 @@
     .give-area .give-title-box .section__title {
         font-size: 40px;
     }
-    .banner-text, .banner-number{
+    .banner-number{
         font-size: 0.8rem; 
+    }
+    .banner-text{
+        font-size:0.8rem;
+        /* left:-30px; */
+        padding-left:10px;
+        padding-right:10px;
+         
     }
 }
 /*-----------------------------
@@ -615,8 +627,8 @@
         height: 650px;
     }
     .slider-area .slider-heading .slider__title {
-        font-size: 55px;
-        line-height: 70px;
+        font-size: 40px;
+        line-height: 50px;
     }
     .slider-area2 .single-slide-item {
         height: 1024px;
