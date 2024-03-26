@@ -1535,6 +1535,12 @@ a:hover {
 /*===================================
     SERVICE AREA
 =====================================*/
+
+.article img{
+    width:100%;
+    height:300px;
+}
+
 .service-area {
     position: relative;
     width: 100%;
@@ -1614,12 +1620,12 @@ a:hover {
     content: "";
     position: absolute;
     display: block;
-    width: 45px;
+    width: 85px;
     height: 100%;
     top: 0;
     left: 0;
     z-index: -1;
-    background: #e5f5f6;
+    background: #003874;
 }
 .service-area .service-wrap .service-item .service-item-inner .service-icon:after {
     -webkit-transform-origin: bottom left;
@@ -1632,7 +1638,7 @@ a:hover {
 }
 .service-area .service-wrap .service-item2 .service-item-inner .service-icon:before,
 .service-area .service-wrap .service-item2 .service-item-inner .service-icon:after {
-    background-color: #fbe9e6;
+    background-color: #ed1c24;
 }
 .service-area .service-wrap .service-item3 .service-item-inner .service-icon:before,
 .service-area .service-wrap .service-item3 .service-item-inner .service-icon:after {
@@ -2146,10 +2152,12 @@ a:hover {
 
 .causes-area .blog-content-wrap .blog-content .blog-item img {
     width: 100%;
+    height:300px;
 }
 .causes-area .blog-content-wrap .blog-content .blog-item .blog-inner-content {
     padding: 44px 45px 50px 50px;
     background-color: #f2f0ec;
+    min-height: 230px;
 }
 .causes-area .blog-content-wrap .blog-content .blog-item .blog-inner-content .blog__title {
    font-size: 26px;
