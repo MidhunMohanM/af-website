@@ -502,7 +502,7 @@
         display: inline-block;
     }
     .register-button{
-        top:80%;
+        display: none;
     }
 }
 /*-----------------------------
@@ -607,6 +607,7 @@
     }
     .give-area .give-title-box .section__title {
         font-size: 40px;
+        line-height:20px;
     }
     .banner-number{
         font-size: 0.8rem; 
@@ -663,7 +664,7 @@
     }
     .mixer-area .mixer-heading .section__title {
         font-size: 30px;
-        line-height: 60px;
+        line-height: 35px;
         margin-bottom: 44px;
     }
     .mixer-area2 .fun-content-slide .fun-slide-item .funslide__text {

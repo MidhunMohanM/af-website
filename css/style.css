@@ -3131,7 +3131,7 @@ a:hover {
     CLIENTLOGO AREA
 =====================================*/
 .clientlogo-area {
-    padding-top: 0px;
+    padding-top: 50px;
     padding-bottom: 50px;
     text-align: center;
 }
@@ -3347,7 +3347,7 @@ a:hover {
     z-index: 1;
     padding-top: 120px;
     padding-bottom: 112px;
-}
+    }
 .gallery-area:before,
 .gallery-area:after {
     position: absolute;
