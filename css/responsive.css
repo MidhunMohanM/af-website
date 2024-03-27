@@ -366,7 +366,7 @@
     }
     .about-heading-text{
         font-size:1rem;
-        text-align: justify !important; 
+        /* text-align: justify !important;  */
     }
     /*== sponsor-area ==*/
     .sponsor-area .sponsor-wrap .logo-item {
@@ -410,6 +410,14 @@
     }
     .footer-area .footer-widget-wrap .footer-item:last-child {
         margin-bottom: 0;
+    }
+
+    .show-sm{
+        display:inline-block;
+    }
+
+    .show-lg{
+        display:none;
     }
 }
 /*-----------------------------
