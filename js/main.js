@@ -56,11 +56,11 @@ Author Email:   layerdrops@gmail.com
         /*===== Back to Top Button and navbar scrolling effects ======*/
         $(window).on('scroll', function() {
             //header fixed animation and control
-            if($(window).scrollTop() > 100) {
-                $('.header-top').addClass('header-fixed');
-            }else{
-                $('.header-top').removeClass('header-fixed');
-            }
+            // if($(window).scrollTop() > 100) {
+            //     $('.header-top').addClass('header-fixed');
+            // }else{
+            //     $('.header-top').removeClass('header-fixed');
+            // }
 
             //back to top button control
             if ($(window).scrollTop() > 300) {
